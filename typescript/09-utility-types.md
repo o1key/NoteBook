@@ -173,7 +173,7 @@ type Readonly<T> = {
 Nó được sử dụng để tạo ra một object mới với các cặp key-value có kiểu dữ liệu cụ thể.
 
 ```tsx
-type Record<K extends keyof any, T> = {
+type Record<K extends keyof string | number | symbol, T> = {
   [P in K]: T;
 };
 ```
