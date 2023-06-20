@@ -148,4 +148,4 @@ let student: Student & Person = {
 
 Trong ví dụ trên, lỗi xảy ra vì có một xung đột trong thuộc tính `age` giữa `Person` và `Student`. Kiểu `Person` định nghĩa `age` là `number`, trong khi kiểu `Student` định nghĩa `age` là `string`. Khi bạn kết hợp hai kiểu này thành kiểu lại, **TS** không thể xác định được kiểu chính xác cho `age`.
 
-Để giải quyết vấn đề này, bạn có thể sử dụng **Union Types (`|`)** thay vì **Intersection Types (`&`)** nếu muốn có một thuộc tính có thể có giá trị của nhiều kiểu khác nhau. Dưới đây là ví dụ sử dụng **Union Types**:
+Để giải quyết vấn đề này, bạn có thể sử dụng **Union Types (`|`)** thay vì **Intersection Types (`&`)** nếu muốn có một thuộc tính có thể có giá trị của nhiều kiểu khác nhau
