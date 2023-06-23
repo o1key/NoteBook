@@ -1,3 +1,4 @@
+# #1: Introduction To React
 **React** là một library được phát triển bởi Facebook, ra mắt vào năm 2013, bản thân nó là một thư viện Javascript được dùng để để xây dựng các tương tác với các thành phần trên website. Một trong những điểm nổi bật nhất của React đó là việc render dữ liệu không chỉ thực hiện được trên tầng Server mà còn ở dưới Client
 
 ![Untitled](../../images/introduction-to-react.png)
